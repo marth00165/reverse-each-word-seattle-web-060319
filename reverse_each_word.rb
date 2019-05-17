@@ -3,4 +3,6 @@ def reverse_each_word(blah)
   hooplah.collect do |word|
     word.reverse!
   end
-  hooplah.join
+  hooplah.join(" ")
+  
+  
